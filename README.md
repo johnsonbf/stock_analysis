@@ -6,6 +6,7 @@ The purpose of this stock analysis, initially, was to create an way for Steve to
 ## Results
 Using our workbook Steve has a clear vision of his portfolio's performance during 2017 and 2018. The majority of his portfolio did better in 2017 than 2018 with the notable exceptions of ENPH and RUN. Each of which provided returns of over 80% in 2018. 
 ![2017](https://user-images.githubusercontent.com/25140609/189162320-8a85522d-ce0c-4ffa-98d8-8a1f5010a9c0.png)
+
 ![2018](https://user-images.githubusercontent.com/25140609/189162386-d192d94a-62d3-44d2-89fa-aaef66df991b.png)
 
 After refactoring the code to run more efficiently we received significantly different speed test results in running our code: 
@@ -28,7 +29,7 @@ Our use of arrays made the data collected by the For loops faster to parse throu
             Cells(4 + i, 2).Value = tickerVolumes(i)
             Cells(4 + i, 3).Value = (tickerEndingPrices(i) / tickerStartingPrices(i)) - 1
             
- ##Summary
+ ## Summary
  It is advantagous to have more efficient code for larger data sets as it reduces the time it takes to compute, but sometimes it is faster/simpler to write something a bit less efficient especially when the compute time different is negligable. In our case, both pieces of code produced results in a fraction of a second.
  
  The original code is a bit more flexible for someone wanting to reporpose it quickly and easily for a similar task, while the new code is much faster. 
