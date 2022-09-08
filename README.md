@@ -12,7 +12,9 @@ Using our workbook Steve has a clear vision of his portfolio's performance durin
 After refactoring the code to run more efficiently we received significantly different speed test results in running our code: 
 
 <img width="264" alt="VBA_Challenge_2018_Old" src="https://user-images.githubusercontent.com/25140609/189163780-e6fcad6b-8629-4264-a75c-a6eb31f38e13.png">
-![VBA_Challenge_2018_Refactored](https://user-images.githubusercontent.com/25140609/189163974-567a86d0-b654-4deb-9ef2-38f55e28f047.png)
+
+![VBA_Challenge_2018_Refac](https://user-images.githubusercontent.com/25140609/189185940-10345c73-fbd3-4c35-9f2a-6fb9859c66b5.png)
+
 
 Our old code ran in .35 seconds, while our refactored code ran in .05 seconds. This may seem insignificant for our current use case considering that both results were produced in under a second, but that different will be much more noticeable with larger data sets. 
 
